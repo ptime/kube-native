@@ -8,5 +8,6 @@ class apiUnitTests {
     void justAnExample() {
     	Product testProd = new Product((long)9999, "testWidget", 19.95);
         assertEquals(testProd.getProductId(), 9999);
+
     }
 }
